@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import "./QuoteBox.css";
 
 const QUOTES = [
   {
@@ -163,7 +164,7 @@ function QuoteBox() {
             id="tweet-quote"
             title="Tweet this quote"
           >
-            <FontAwesomeIcon icon={faTwitter} className="icons" />
+            <i class="fa fa-twitter"></i>
           </a>
           <button
             id="new-quote"
